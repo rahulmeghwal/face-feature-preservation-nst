@@ -230,6 +230,7 @@ def get_training_metadata(training_config):
         "content_weight": training_config['content_weight'],
         "style_weight": training_config['style_weight'],
         "tv_weight": training_config['tv_weight'],
+        "face_edge_loss_weight": training_config['face_edge_loss_weight'],
     }
     return training_metadata
 
